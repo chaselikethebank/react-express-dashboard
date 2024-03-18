@@ -9,6 +9,7 @@ const port = 3000;
 
 const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
 const CHANNEL_ID = "UClYsncuu6rBhsh2lYYb0zdQ";
+console.log("YOUTUBE_API_KEY:", process.env.YOUTUBE_API_KEY);
 
 app.use(cors());
 
